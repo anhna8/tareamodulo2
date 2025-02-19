@@ -1,4 +1,4 @@
-/* const frutas = ["manzana", "pera", "sandia", "fresa", "kiwi"];
+ const frutas = ["manzana", "pera", "sandia", "fresa", "kiwi"];
 
 const cantidadFrutas = {
     manzana: 5,
@@ -11,7 +11,7 @@ const cantidadFrutas = {
 for(let i = 0; i < frutas.length; i++){
     console.log(frutas[i]);
     console.log(cantidadFrutas[frutas[i]]);
-} */
+} 
 
 let i = 0;
 
