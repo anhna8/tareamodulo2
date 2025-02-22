@@ -8,9 +8,9 @@ function agregarLibro(titulo) {
 }
 
 function mostrarLibrosLeidos() {
-    console.log("Libros leídos:");
+    console.log("Libros leidos:");
     if (librosLeidos.length === 0) {
-        console.log("No has leído ningún libro todavía.");
+        console.log("No has leido ningun libro todavia.");
     } else {
         librosLeidos.forEach(function(libro, index) {
             console.log(`${index + 1}. ${libro}`);
